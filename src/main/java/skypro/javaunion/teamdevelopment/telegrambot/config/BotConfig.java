@@ -14,4 +14,12 @@ public class BotConfig {
     private String botName;
     @Value("${bot.token}")
     private String token;
+    @Value("${bot.hetPathToTheImageFileCat}")
+    private String thePathToTheImageFileCat;
+    @Value("${bot.hetPathToTheImageFileDog}")
+    private String thePathToTheImageFileDog;
+
+    public Long getWaitingTimeForReportDays() {
+        return getWaitingTimeForReportDays();
+    }
 }
